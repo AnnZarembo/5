@@ -2,13 +2,13 @@ def shifr(text,shift):
     shifr_text=''
     for i in text:
         if i.isupper():
-            i_index=ord(i) - ord('A')
-            i_shifted=(i_index + shift) % 26 + ord('A')
+            i_index=ord(i) - ord('А')
+            i_shifted=(i_index + shift) % 26 + ord('А')
             i_new=chr(i_shifted)
             shifr_text+=i_new
         elif i.islower():
-            i_index=ord(i)-ord('a')
-            i_shifted=(i_index + shift)%26+ord('a')
+            i_index=ord(i)-ord('а')
+            i_shifted=(i_index + shift)%26+ord('а')
             i_new=chr(i_shifted)
             shifr_text+=i_new
         elif i.isdigit():
@@ -22,13 +22,13 @@ def shifr_rashifr(text,shift):
     rashifr_text=''
     for i in text:
         if i.isupper():
-            i_index=ord(i) - ord('A')
-            i_levo_pos=(i_index - shift) % 26 + ord('A')
+            i_index=ord(i) - ord('А')
+            i_levo_pos=(i_index - shift) % 26 + ord('А')
             i_levo=chr(i_levo_pos)
             rashifr_text+=i_levo
         elif i.islower():
-            i_index=ord(i) - ord('a')
-            i_levo_pos=(i_index - shift) % 26 + ord('a')
+            i_index=ord(i) - ord('а')
+            i_levo_pos=(i_index - shift) % 26 + ord('а')
             i_levo=chr(i_levo_pos)
             rashifr_text+=i_levo
         elif i.isdigit():
@@ -38,7 +38,7 @@ def shifr_rashifr(text,shift):
             rashifr_text+=i
     return rashifr_text
 
-iscl=',.*()_+{["|\/}]№@#$^&;%:%*-=~1234567890!?<>'
+iscl=' ,.*()_+{["|\/}]№@#$^&;%:%*-=~1234567890!?<>'
 while True:
         a_1 = True
         a_2 = True
