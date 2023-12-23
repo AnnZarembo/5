@@ -12,6 +12,6 @@ PyCharm
 # Как работает программа?
 Затем нужно ввести текст и сделать шаг вперед. Программа зашифровывает этот текст.
 # Тесты:
- ![тест](https://sun9-62.userapi.com/impf/WbllW6yQAo_HChzQF1p7Uf1v5ytMob6JuCE4Sw/xQ-_t-u0sfc.jpg?size=311x141&quality=96&sign=0d29824bc32af98298383f33298c3aa1&type=album)
- ![тест](https://sun9-76.userapi.com/impf/Gd55R5g9Vuj7FxyZbwP7cMfhG2S7H1pl1GVHug/7PNlHOQwW9w.jpg?size=377x172&quality=96&sign=932423c5693f8c500def26918178d669&type=album)
- ![тест](https://sun9-9.userapi.com/impf/zktAs-eV1D57Z7RwPhCnjN5dRzIp1bAc7S5rFQ/urbmWb6Lb9g.jpg?size=345x155&quality=96&sign=9b1106c5f2dd3a5db85b13c9c8582046&type=album)
+ ![тест](https://sun9-54.userapi.com/impf/MQGH5-RYfTUWf3BhIUYcfvmxRNiMOleb4e8Ejg/f-Pf12PdUs0.jpg?size=332x216&quality=96&sign=d65f8b649b9ad5b5c9cbddfc9361e6d6&type=album)
+ ![тест](https://sun9-66.userapi.com/impf/nt9U4h52vDblaHpGkOcO05Ym9auKLqH1lzNEyg/hqpa2zt8LzU.jpg?size=365x147&quality=96&sign=19fa31a9edef383b1a83828019685cd0&type=album)
+ ![тест](https://sun9-72.userapi.com/impf/TjwaYj2tVyqgnVf4uRScAT8LHDkfYyP-6ZpPfA/zPFPw9I92ug.jpg?size=387x203&quality=96&sign=a7f2b3109aa03fdcb4dd4a0c1bc6a142&type=album)
