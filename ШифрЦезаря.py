@@ -37,12 +37,18 @@ while True:
             print('Введите текст на русском языке')
         else:
             break
-while True:
-    try:
-        shift = int(input('Введите шаг сдвига (целое число):'))
-        break
-    except ValueError:
-        print('Шаг сдвига должен быть целым числом')
+
+
+is_ok_2=False
+while is_ok_2 == False:
+     try:
+          shift = int(input('Введите шаг сдвига (целое число):'))
+          if shift > 0:
+               is_ok_2 = True
+          else:
+               print('шаг должен быть больше 0')
+     except ValueError:
+          print('Шаг сдвига должен быть целым числом')
 
 shifr_text = shifr(text, shift)
 print('Зашифрованный текст:', shifr_text)
